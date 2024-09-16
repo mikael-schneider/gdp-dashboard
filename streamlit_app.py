@@ -72,7 +72,7 @@ notice, the data only goes to 2022 right now, and datapoints for certain years a
 But it's otherwise a great (and did I mention _free_?) source of data.
 '''
 
-os.environ["db_username"]
+os.environ["my_cool_secrets"]
 
 # Add some spacing
 ''
