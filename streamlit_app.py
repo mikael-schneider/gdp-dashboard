@@ -126,6 +126,7 @@ last_year = gdp_df[gdp_df['Year'] == to_year]
 st.header(f'GDP in {to_year}', divider='gray')
 
 ''
+st.write("DB username:", st.secrets["db_username"])
 
 cols = st.columns(4)
 
@@ -150,4 +151,4 @@ for i, country in enumerate(selected_countries):
             delta_color=delta_color
         )
 
-st.write("DB username:", st.secrets["db_username"])
+
